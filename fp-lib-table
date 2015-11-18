@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name solderJmp)(type KiCad)(uri "$(KIPRJMOD)/solderJmp.pretty")(options "")(descr ""))
+  (lib (name PlugOutline)(type KiCad)(uri "$(KIPRJMOD)/PlugOutline.pretty")(options "")(descr ""))
+  (lib (name NX3225GA)(type KiCad)(uri "$(KIPRJMOD)/NX3225GA.pretty")(options "")(descr ""))
+  (lib (name spexLogo)(type KiCad)(uri "$(KIPRJMOD)/spexLogo.pretty")(options "")(descr ""))
+  (lib (name Tag-Connect)(type Legacy)(uri "$(KIPRJMOD)/Tag-Connect_PCB_Library/Tag-Connect.mod")(options "")(descr ""))
+  (lib (name edgeSMA)(type KiCad)(uri "$(KIPRJMOD)/edgeSMA.pretty")(options "")(descr ""))
+)

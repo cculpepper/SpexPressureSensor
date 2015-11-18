@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MMA8653FC
+F transistors/bipolar/*.*
+$ENDCMP
+#
+#End Doc Library
