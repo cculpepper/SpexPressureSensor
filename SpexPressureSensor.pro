@@ -1,4 +1,4 @@
-update=Tue 17 Nov 2015 21:54:16 EST
+update=Wed 18 Nov 2015 21:00:13 EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -84,3 +84,4 @@ LibName42=MMA8653FC
 LibName43=Beacon/MMBT4403
 LibName44=Beacon/2n4403
 LibName45=Tag-Connect_Schematic_Library/Tag-Connect
+LibName46=lt6105

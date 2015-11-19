@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (after 2015-may-01 BZR unknown)-product   date = Tue 17 Nov 2015 21:59:17 EST
+Cmp-Mod V01 Created by Cvpcb (after 2015-may-01 BZR unknown)-product   date = Wed 18 Nov 2015 21:07:16 EST
 
 BeginCmp
 TimeStamp = /56486595;
@@ -122,6 +122,13 @@ EndCmp
 BeginCmp
 TimeStamp = /564ACFC1;
 Reference = C17;
+ValeurCmp = 1uf;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /564F86D1;
+Reference = C18;
 ValeurCmp = C;
 IdModule  = Capacitors_SMD:C_0402;
 EndCmp
@@ -179,21 +186,21 @@ BeginCmp
 TimeStamp = /5648EBFE/564912C0;
 Reference = L3;
 ValeurCmp = 390n;
-IdModule  = Resistors_SMD:R_0402;
+IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5648EBFE/56491322;
 Reference = L4;
 ValeurCmp = 470n;
-IdModule  = Resistors_SMD:R_0402;
+IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5648EBFE/56491351;
 Reference = L5;
 ValeurCmp = 390n;
-IdModule  = Resistors_SMD:R_0402;
+IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
@@ -372,8 +379,36 @@ IdModule  = Resistors_SMD:R_0402;
 EndCmp
 
 BeginCmp
+TimeStamp = /564F3E41;
+Reference = R16;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
 TimeStamp = /5648EBFE/564A0F2A;
 Reference = R17;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /564F40F7;
+Reference = R18;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /564F3D4C;
+Reference = R19;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /564FA083;
+Reference = R20;
 ValeurCmp = R;
 IdModule  = Resistors_SMD:R_0402;
 EndCmp
@@ -418,6 +453,13 @@ TimeStamp = /5648EBFE/5648EC43;
 Reference = U6;
 ValeurCmp = SI5351A;
 IdModule  = Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /564F52BD;
+Reference = U7;
+ValeurCmp = LT6105;
+IdModule  = LT6105:LT6105;
 EndCmp
 
 BeginCmp
