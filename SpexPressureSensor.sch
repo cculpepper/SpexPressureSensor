@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:SpexPressureSensor-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -84,7 +85,7 @@ F 4 "LTC2851IDD" H 2700 3450 60  0001 C CNN "Manufacturer PN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L TPS769XX U2
+L TPS769XX-RESCUE-SpexPressureSensor U2
 U 1 1 5647CA18
 P 3200 1550
 F 0 "U2" H 3350 1850 60  0000 C CNN
@@ -95,7 +96,7 @@ F 3 "" H 3200 1550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L GND-RESCUE-SpexPressureSensor #PWR01
 U 1 1 5647CC0F
 P 2000 1700
 F 0 "#PWR01" H 2000 1700 30  0001 C CNN
@@ -106,7 +107,7 @@ F 3 "" H 2000 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L GND-RESCUE-SpexPressureSensor #PWR02
 U 1 1 5647CC75
 P 3200 2150
 F 0 "#PWR02" H 3200 2150 30  0001 C CNN
@@ -117,7 +118,7 @@ F 3 "" H 3200 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR03
+L +3.3V-RESCUE-SpexPressureSensor #PWR03
 U 1 1 5647CC8D
 P 3750 1300
 F 0 "#PWR03" H 3750 1260 30  0001 C CNN
@@ -129,7 +130,7 @@ F 3 "" H 3750 1300 60  0000 C CNN
 $EndComp
 NoConn ~ 3650 1550
 $Comp
-L C C1
+L C-RESCUE-SpexPressureSensor C1
 U 1 1 5647CE24
 P 2550 1850
 F 0 "C1" H 2550 1950 40  0000 L CNN
@@ -140,7 +141,7 @@ F 3 "" H 2550 1850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L C-RESCUE-SpexPressureSensor C3
 U 1 1 5647CE65
 P 3900 1600
 F 0 "C3" H 3900 1700 40  0000 L CNN
@@ -151,7 +152,7 @@ F 3 "" H 3900 1600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L C-RESCUE-SpexPressureSensor C2
 U 1 1 5647CEB3
 P 3000 2700
 F 0 "C2" H 3000 2800 40  0000 L CNN
@@ -162,7 +163,7 @@ F 3 "" H 3000 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR04
+L +3.3V-RESCUE-SpexPressureSensor #PWR04
 U 1 1 5647D168
 P 2800 2400
 F 0 "#PWR04" H 2800 2360 30  0001 C CNN
@@ -173,7 +174,7 @@ F 3 "" H 2800 2400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L GND-RESCUE-SpexPressureSensor #PWR05
 U 1 1 5647D1DB
 P 3000 3000
 F 0 "#PWR05" H 3000 3000 30  0001 C CNN
@@ -184,7 +185,7 @@ F 3 "" H 3000 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L GND-RESCUE-SpexPressureSensor #PWR06
 U 1 1 5647D22B
 P 2700 4250
 F 0 "#PWR06" H 2700 4250 30  0001 C CNN
@@ -206,7 +207,7 @@ F 3 "DOCUMENTATION" H 8350 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C7
+L C-RESCUE-SpexPressureSensor C7
 U 1 1 5647E7A7
 P 9150 3950
 F 0 "C7" H 9150 4050 40  0000 L CNN
@@ -217,7 +218,7 @@ F 3 "" H 9150 3950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR07
+L +3.3V-RESCUE-SpexPressureSensor #PWR07
 U 1 1 5647E7FC
 P 8350 3250
 F 0 "#PWR07" H 8350 3210 30  0001 C CNN
@@ -228,7 +229,7 @@ F 3 "" H 8350 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L GND-RESCUE-SpexPressureSensor #PWR08
 U 1 1 5647E81A
 P 8300 4700
 F 0 "#PWR08" H 8300 4700 30  0001 C CNN
@@ -239,7 +240,7 @@ F 3 "" H 8300 4700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L R-RESCUE-SpexPressureSensor R6
 U 1 1 5647ED22
 P 6950 3450
 F 0 "R6" V 7030 3450 40  0000 C CNN
@@ -250,7 +251,7 @@ F 3 "" H 6950 3450 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L R-RESCUE-SpexPressureSensor R7
 U 1 1 5647ED58
 P 7150 3450
 F 0 "R7" V 7230 3450 40  0000 C CNN
@@ -261,7 +262,7 @@ F 3 "" H 7150 3450 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR09
+L +3.3V-RESCUE-SpexPressureSensor #PWR09
 U 1 1 5647EF5A
 P 7150 3050
 F 0 "#PWR09" H 7150 3010 30  0001 C CNN
@@ -272,7 +273,7 @@ F 3 "" H 7150 3050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR010
+L +3.3V-RESCUE-SpexPressureSensor #PWR010
 U 1 1 5647F0E7
 P 5850 2600
 F 0 "#PWR010" H 5850 2560 30  0001 C CNN
@@ -283,7 +284,7 @@ F 3 "" H 5850 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L GND-RESCUE-SpexPressureSensor #PWR011
 U 1 1 5647F146
 P 5850 4950
 F 0 "#PWR011" H 5850 4950 30  0001 C CNN
@@ -294,7 +295,7 @@ F 3 "" H 5850 4950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L GND-RESCUE-SpexPressureSensor #PWR012
 U 1 1 5647F181
 P 6150 3150
 F 0 "#PWR012" H 6150 3150 30  0001 C CNN
@@ -305,7 +306,7 @@ F 3 "" H 6150 3150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L C-RESCUE-SpexPressureSensor C5
 U 1 1 5647F1BC
 P 6150 2850
 F 0 "C5" H 6150 2950 40  0000 L CNN
@@ -316,7 +317,7 @@ F 3 "" H 6150 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L C-RESCUE-SpexPressureSensor C4
 U 1 1 5647F77F
 P 4150 1600
 F 0 "C4" H 4150 1700 40  0000 L CNN
@@ -329,7 +330,7 @@ $EndComp
 Text Label 2000 1400 0    60   ~ 0
 VInput
 $Comp
-L R R1
+L R-RESCUE-SpexPressureSensor R1
 U 1 1 564800E2
 P 3450 7350
 F 0 "R1" V 3530 7350 40  0000 C CNN
@@ -340,7 +341,7 @@ F 3 "" H 3450 7350 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L R-RESCUE-SpexPressureSensor R2
 U 1 1 5648011F
 P 3800 7000
 F 0 "R2" V 3880 7000 40  0000 C CNN
@@ -351,7 +352,7 @@ F 3 "" H 3800 7000 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR013
+L GND-RESCUE-SpexPressureSensor #PWR013
 U 1 1 56480341
 P 3150 7750
 F 0 "#PWR013" H 3150 7750 30  0001 C CNN
@@ -375,7 +376,7 @@ $EndComp
 Text Label 2900 4400 0    60   ~ 0
 VInput
 $Comp
-L R R3
+L R-RESCUE-SpexPressureSensor R3
 U 1 1 56481BC0
 P 6500 5350
 F 0 "R3" V 6580 5350 40  0000 C CNN
@@ -386,7 +387,7 @@ F 3 "" H 6500 5350 30  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED D1
+L LED-RESCUE-SpexPressureSensor D1
 U 1 1 56481C5A
 P 5950 5350
 F 0 "D1" H 5950 5450 50  0000 C CNN
@@ -397,7 +398,7 @@ F 3 "" H 5950 5350 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR014
+L +3.3V-RESCUE-SpexPressureSensor #PWR014
 U 1 1 564820C5
 P 5700 5250
 F 0 "#PWR014" H 5700 5210 30  0001 C CNN
@@ -419,7 +420,7 @@ F 3 "" H 3000 7000 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R8
+L R-RESCUE-SpexPressureSensor R8
 U 1 1 56487328
 P 1500 2650
 F 0 "R8" V 1580 2650 40  0000 C CNN
@@ -456,7 +457,7 @@ SWDIO
 Text Label 5900 6750 0    60   ~ 0
 SWCLK
 $Comp
-L +3.3V #PWR015
+L +3.3V-RESCUE-SpexPressureSensor #PWR015
 U 1 1 5648BD82
 P 4700 6600
 F 0 "#PWR015" H 4700 6560 30  0001 C CNN
@@ -467,7 +468,7 @@ F 3 "" H 4700 6600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L GND-RESCUE-SpexPressureSensor #PWR016
 U 1 1 5648BDB4
 P 4700 6950
 F 0 "#PWR016" H 4700 6950 30  0001 C CNN
@@ -498,7 +499,7 @@ F 3 "" H 1200 1450 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R19
+L R-RESCUE-SpexPressureSensor R19
 U 1 1 564F3D4C
 P 2900 5300
 F 0 "R19" V 2980 5300 40  0000 C CNN
@@ -509,7 +510,7 @@ F 3 "" H 2900 5300 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R16
+L R-RESCUE-SpexPressureSensor R16
 U 1 1 564F3E41
 P 2200 5000
 F 0 "R16" V 2280 5000 40  0000 C CNN
@@ -520,7 +521,7 @@ F 3 "" H 2200 5000 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R18
+L R-RESCUE-SpexPressureSensor R18
 U 1 1 564F40F7
 P 2200 5650
 F 0 "R18" V 2280 5650 40  0000 C CNN
@@ -529,6 +530,65 @@ F 2 "Resistors_SMD:R_0402" V 2130 5650 30  0001 C CNN
 F 3 "" H 2200 5650 30  0000 C CNN
 	1    2200 5650
 	0    1    1    0   
+$EndComp
+$Comp
+L LT6105 U7
+U 1 1 564F52BD
+P 1400 6100
+F 0 "U7" H 1450 6750 60  0000 C CNN
+F 1 "LT6105" H 1350 6450 60  0000 C CNN
+F 2 "LT6105:LT6105" H 1400 6100 60  0001 C CNN
+F 3 "" H 1400 6100 60  0000 C CNN
+	1    1400 6100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-SpexPressureSensor #PWR017
+U 1 1 564F795C
+P 1600 6500
+F 0 "#PWR017" H 1600 6500 30  0001 C CNN
+F 1 "GND" H 1600 6430 30  0001 C CNN
+F 2 "" H 1600 6500 60  0000 C CNN
+F 3 "" H 1600 6500 60  0000 C CNN
+	1    1600 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-SpexPressureSensor C18
+U 1 1 564F86D1
+P 2050 6100
+F 0 "C18" H 2050 6200 40  0000 L CNN
+F 1 "C" H 2056 6015 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 2088 5950 30  0001 C CNN
+F 3 "" H 2050 6100 60  0000 C CNN
+	1    2050 6100
+	1    0    0    -1  
+$EndComp
+Text Label 6700 4300 0    60   ~ 0
+NichromeI
+Text Label 500  5750 0    60   ~ 0
+NichromeI
+$Comp
+L R-RESCUE-SpexPressureSensor R20
+U 1 1 564FA083
+P 650 6050
+F 0 "R20" V 730 6050 40  0000 C CNN
+F 1 "R" V 657 6051 40  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 580 6050 30  0001 C CNN
+F 3 "" H 650 6050 30  0000 C CNN
+	1    650  6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V-RESCUE-SpexPressureSensor #PWR018
+U 1 1 564FAED5
+P 1950 5850
+F 0 "#PWR018" H 1950 5810 30  0001 C CNN
+F 1 "+3.3V" H 1950 5960 30  0000 C CNN
+F 2 "" H 1950 5850 60  0000 C CNN
+F 3 "" H 1950 5850 60  0000 C CNN
+	1    1950 5850
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1550 1400 2750 1400
@@ -652,10 +712,6 @@ Wire Wire Line
 Connection ~ 3900 2050
 Connection ~ 3900 1400
 Wire Wire Line
-	4150 4000 5050 4000
-Wire Wire Line
-	4150 4000 4150 7000
-Wire Wire Line
 	4150 7000 4050 7000
 Wire Wire Line
 	3200 7000 3550 7000
@@ -737,8 +793,6 @@ Wire Wire Line
 Wire Wire Line
 	6800 4200 6650 4200
 Wire Wire Line
-	6650 4300 7250 4300
-Wire Wire Line
 	5350 2050 5350 1300
 Connection ~ 4150 2050
 Wire Wire Line
@@ -753,47 +807,14 @@ Wire Wire Line
 Connection ~ 1750 1500
 Connection ~ 2900 5650
 Connection ~ 2900 5000
-$Comp
-L LT6105 U7
-U 1 1 564F52BD
-P 1400 6100
-F 0 "U7" H 1450 6750 60  0000 C CNN
-F 1 "LT6105" H 1350 6450 60  0000 C CNN
-F 2 "LT6105:LT6105" H 1400 6100 60  0001 C CNN
-F 3 "" H 1400 6100 60  0000 C CNN
-	1    1400 6100
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	1850 5650 1950 5650
-$Comp
-L GND #PWR017
-U 1 1 564F795C
-P 1600 6500
-F 0 "#PWR017" H 1600 6500 30  0001 C CNN
-F 1 "GND" H 1600 6430 30  0001 C CNN
-F 2 "" H 1600 6500 60  0000 C CNN
-F 3 "" H 1600 6500 60  0000 C CNN
-	1    1600 6500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1950 5000 1900 5000
 Wire Wire Line
 	1900 5000 1900 5550
 Wire Wire Line
 	1900 5550 1850 5550
-$Comp
-L C C18
-U 1 1 564F86D1
-P 2050 6100
-F 0 "C18" H 2050 6200 40  0000 L CNN
-F 1 "C" H 2056 6015 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 2088 5950 30  0001 C CNN
-F 3 "" H 2050 6100 60  0000 C CNN
-	1    2050 6100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1850 5900 2050 5900
 Wire Wire Line
@@ -808,23 +829,8 @@ Connection ~ 1850 6450
 Wire Wire Line
 	1400 6300 1400 6450
 Connection ~ 1600 6450
-Text Label 6700 4300 0    60   ~ 0
-NichromeI
-Text Label 500  5750 0    60   ~ 0
-NichromeI
 Wire Wire Line
 	850  5750 500  5750
-$Comp
-L R R20
-U 1 1 564FA083
-P 650 6050
-F 0 "R20" V 730 6050 40  0000 C CNN
-F 1 "R" V 657 6051 40  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 580 6050 30  0001 C CNN
-F 3 "" H 650 6050 30  0000 C CNN
-	1    650  6050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	650  6300 650  6450
 Connection ~ 1400 6450
@@ -835,17 +841,6 @@ Wire Wire Line
 	2450 5000 2900 5000
 Wire Wire Line
 	2450 5650 2900 5650
-$Comp
-L +3.3V #PWR018
-U 1 1 564FAED5
-P 1950 5850
-F 0 "#PWR018" H 1950 5810 30  0001 C CNN
-F 1 "+3.3V" H 1950 5960 30  0000 C CNN
-F 2 "" H 1950 5850 60  0000 C CNN
-F 3 "" H 1950 5850 60  0000 C CNN
-	1    1950 5850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1950 5850 1950 5900
 Connection ~ 1950 5900
@@ -856,4 +851,12 @@ Wire Wire Line
 Wire Wire Line
 	2550 4200 2700 4200
 Connection ~ 2700 4200
+Wire Wire Line
+	6650 4300 7250 4300
+Text Label 4150 7000 0    60   ~ 0
+cut
+Text Label 6700 4000 0    60   ~ 0
+cut
+Wire Wire Line
+	6650 4000 6700 4000
 $EndSCHEMATC
