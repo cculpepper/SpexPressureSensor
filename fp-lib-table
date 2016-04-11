@@ -6,4 +6,5 @@
   (lib (name Tag-Connect)(type Legacy)(uri "$(KIPRJMOD)/Tag-Connect_PCB_Library/Tag-Connect.mod")(options "")(descr ""))
   (lib (name edgeSMA)(type KiCad)(uri "$(KIPRJMOD)/edgeSMA.pretty")(options "")(descr ""))
   (lib (name LT6105)(type KiCad)(uri "$(KIPRJMOD)/LT6105.pretty")(options "")(descr ""))
+  (lib (name bme280)(type KiCad)(uri "$(KIPRJMOD)/bme280.pretty")(options "")(descr ""))
 )

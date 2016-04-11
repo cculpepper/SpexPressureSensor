@@ -1,4 +1,4 @@
-update=Wed 17 Feb 2016 09:40:06 PM PST
+update=Sun 10 Apr 2016 06:40:27 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -86,3 +86,4 @@ LibName44=Beacon/MMBT4403
 LibName45=Beacon/2n4403
 LibName46=Tag-Connect_Schematic_Library/Tag-Connect
 LibName47=lt6105
+LibName48=bme280

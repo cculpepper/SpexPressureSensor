@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/chris/Code/SpexPressureSensor/SpexPressureSensor.sch</source>
-    <date>Wed 17 Feb 2016 11:00:21 PM PST</date>
+    <date>Fri 11 Mar 2016 09:57:35 PM PST</date>
     <tool>Eeschema 4.0.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -180,21 +180,21 @@
       <tstamp>564BF142</tstamp>
     </comp>
     <comp ref="R19">
-      <value>R</value>
+      <value>.02</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="SpexPressureSensor-rescue" part="R-RESCUE-SpexPressureSensor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>564F3D4C</tstamp>
     </comp>
     <comp ref="R16">
-      <value>R</value>
+      <value>100</value>
       <footprint>Resistors_SMD:R_0402</footprint>
       <libsource lib="SpexPressureSensor-rescue" part="R-RESCUE-SpexPressureSensor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>564F3E41</tstamp>
     </comp>
     <comp ref="R18">
-      <value>R</value>
+      <value>100</value>
       <footprint>Resistors_SMD:R_0402</footprint>
       <libsource lib="SpexPressureSensor-rescue" part="R-RESCUE-SpexPressureSensor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -208,14 +208,14 @@
       <tstamp>564F52BD</tstamp>
     </comp>
     <comp ref="C18">
-      <value>C</value>
+      <value>1u</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
       <libsource lib="SpexPressureSensor-rescue" part="C-RESCUE-SpexPressureSensor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>564F86D1</tstamp>
     </comp>
     <comp ref="R20">
-      <value>R</value>
+      <value>1000</value>
       <footprint>Resistors_SMD:R_0402</footprint>
       <libsource lib="SpexPressureSensor-rescue" part="R-RESCUE-SpexPressureSensor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -427,25 +427,25 @@
   </libparts>
   <libraries>
     <library logical="SpexPressureSensor-rescue">
-      <uri>SpexPressureSensor-rescue.lib</uri>
-    </library>
-    <library logical="ST1480ABDR">
-      <uri>ST1480ABDR.lib</uri>
+      <uri>/home/chris/Code/SpexPressureSensor/SpexPressureSensor-rescue.lib</uri>
     </library>
     <library logical="MKL03ZxxVFG4">
-      <uri>MKL03ZxxVFG4.lib</uri>
+      <uri>/home/chris/Code/SpexPressureSensor/MKL03ZxxVFG4.lib</uri>
+    </library>
+    <library logical="ST1480ABDR">
+      <uri>/home/chris/Code/SpexPressureSensor/ST1480ABDR.lib</uri>
     </library>
     <library logical="BMP180">
-      <uri>BMP180.lib</uri>
+      <uri>/home/chris/Code/SpexPressureSensor/BMP180.lib</uri>
     </library>
     <library logical="IRLL3303PbF">
-      <uri>IRLL3303PbF.lib</uri>
+      <uri>/home/chris/Code/SpexPressureSensor/IRLL3303PbF.lib</uri>
     </library>
     <library logical="Tag-Connect">
-      <uri>Tag-Connect_Schematic_Library/Tag-Connect.lib</uri>
+      <uri>/home/chris/Code/SpexPressureSensor/Tag-Connect_Schematic_Library/Tag-Connect.lib</uri>
     </library>
     <library logical="lt6105">
-      <uri>lt6105.lib</uri>
+      <uri>/home/chris/Code/SpexPressureSensor/lt6105.lib</uri>
     </library>
     <library logical="SpexPressureSensor-cache">
       <uri>/home/chris/Code/SpexPressureSensor/SpexPressureSensor-cache.lib</uri>
